@@ -1,0 +1,15 @@
+2009-02-22  Xavier Maillard  <xma@gnu.org>
+
+	* oddmuse.el (oddmuse-delete): New function. Mark a page to be deleted.
+	(oddmuse-redirect): New function. For a page redirection.
+	(oddmuse-new-page-p, oddmuse-new-page-face)
+	(oddmuse-not-exist-text, oddmuse-new-page-warn)
+	(oddmuse-warn-on-new-page): New variables.
+	(oddmuse-edit): Use them. Display warning on editing a non
+	existent page.
+	(oddmuse-page-name): Make it buffer local.
+
+2009-02-21  Xavier Maillard  <xma@gnu.org>
+
+	* oddmuse.el: Header update: new maintainer.
+
